@@ -17,7 +17,7 @@ function Main({ onEditAvatar, onEditProfile, onAddPlace, onCardClick }) {
       setCards([...initialCards]);
     })
     .catch((err) => console.log(`Возникла ошибка: ${err}`));
-  }, [setUserName, setUserDescription, setUserAvatar, setCards]);
+  }, []);
 
   return (
     <main>
