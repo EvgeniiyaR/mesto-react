@@ -1,4 +1,4 @@
-function ImagePopup({ card, onClose}) {
+function ImagePopup({ card, onClose }) {
 
   return (
     <div className={`popup popup_type_img ${card.link && 'popup_opened'}`}>
